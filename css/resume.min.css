@@ -148,10 +148,22 @@
 */
 
 #text1 {
-  margin: 10px;
+  margin: 40px;
+  
+
 }
 
+.vertical-center {
+  min-height: 100%;  /*Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
 
+.poster .image-responsibe {
+  margin: 0 auto;
+}
 
 
 
